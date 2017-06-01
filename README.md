@@ -28,3 +28,6 @@ npm run open
 * The [`store.dispatch()`](http://redux.js.org/docs/api/Store.html#dispatch) functions are passed down as props in the `<Counter />` component. These are used to dispatch increment & decrement actions, which mutate the Redux store.
 
 **Note**: Single Redux store lives in pages/store.js. In a larger application, you can combine multiple reducers from multiple pages with [`combinedReducer()`](http://redux.js.org/docs/api/combineReducers.html) to instantiate a single Redux store.
+
+**Note**:
+THIS PACKAGE UNDER DEVELOPMENT, IF ANY ISSUES FACED BY THIS PACKAGE PLEASE RAISE A TICKET
