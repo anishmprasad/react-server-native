@@ -1,6 +1,6 @@
 {
   "name": "react-server-native",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "author": "anishmprasad",
   "description": "An Starter React app powered by React-Server, React-Router, Redux and React Native",
