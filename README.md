@@ -1,7 +1,7 @@
-## Basic Redux Counter app
-An example of the official [Redux Counter](https://github.com/reactjs/redux/tree/master/examples/counter) app powered by react-server.
+## React Server Redux Starter
+An Starter React app powered by React-Server, React-Router and Redux
 
-### Quck Start
+### Quick Start
 Install npm dependencies:
 ```
 npm install
@@ -18,6 +18,7 @@ npm run open
 ```
 
 ### Description
+
 * In counter-app/index.js, the Redux store is initialized by passing a reducing function into [`createStore()`](http://redux.js.org/docs/api/createStore.html).
 
 * The store is passed into the react-redux's [`<Provider />`](https://github.com/reactjs/react-redux/blob/master/docs/api.md#provider-store) component. This makes the Redux store available to the [`connect()`](https://github.com/reactjs/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options) calls in the component hierarchy below.
