@@ -1,9 +1,9 @@
 {
-  "name": "react-server",
+  "name": "react-server-redux",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "author": "anishmprasad",
-  "description": "react-server",
+  "description": "An Starter React app powered by React-Server, React-Router, Redux and React Native",
   "scripts": {
     "start": "react-server start",
     "open": "open http://localhost:3000",

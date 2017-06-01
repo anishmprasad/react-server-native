@@ -1,47 +1,93 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/local/Cellar/node/7.7.3/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'start' ]
+1 verbose cli   'publish' ]
 2 info using npm@4.1.2
 3 info using node@v7.7.3
-4 verbose run-script [ 'prestart', 'start', 'poststart' ]
-5 info lifecycle rearch@0.0.1~prestart: rearch@0.0.1
-6 silly lifecycle rearch@0.0.1~prestart: no script for prestart, continuing
-7 info lifecycle rearch@0.0.1~start: rearch@0.0.1
-8 verbose lifecycle rearch@0.0.1~start: unsafe-perm in lifecycle true
-9 verbose lifecycle rearch@0.0.1~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/ghost/Documents/rearch/node_modules/.bin:/Users/ghost/.rvm/gems/ruby-2.4.0/bin:/Users/ghost/.rvm/gems/ruby-2.4.0@global/bin:/Users/ghost/.rvm/rubies/ruby-2.4.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/ghost/.rvm/bin
-10 verbose lifecycle rearch@0.0.1~start: CWD: /Users/ghost/Documents/rearch
-11 silly lifecycle rearch@0.0.1~start: Args: [ '-c', 'react-server start' ]
-12 silly lifecycle rearch@0.0.1~start: Returned: code: 1  signal: null
-13 info lifecycle rearch@0.0.1~start: Failed to exec start script
-14 verbose stack Error: rearch@0.0.1 start: `react-server start`
-14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:279:16)
-14 verbose stack     at emitTwo (events.js:106:13)
-14 verbose stack     at EventEmitter.emit (events.js:194:7)
-14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
-14 verbose stack     at emitTwo (events.js:106:13)
-14 verbose stack     at ChildProcess.emit (events.js:194:7)
-14 verbose stack     at maybeClose (internal/child_process.js:899:16)
-14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
-15 verbose pkgid rearch@0.0.1
-16 verbose cwd /Users/ghost/Documents/rearch
-17 error Darwin 16.6.0
-18 error argv "/usr/local/Cellar/node/7.7.3/bin/node" "/usr/local/bin/npm" "start"
-19 error node v7.7.3
-20 error npm  v4.1.2
-21 error code ELIFECYCLE
-22 error rearch@0.0.1 start: `react-server start`
-22 error Exit status 1
-23 error Failed at the rearch@0.0.1 start script 'react-server start'.
-23 error Make sure you have the latest version of node.js and npm installed.
-23 error If you do, this is most likely a problem with the rearch package,
-23 error not with npm itself.
-23 error Tell the author that this fails on your system:
-23 error     react-server start
-23 error You can get information on how to open an issue for this project with:
-23 error     npm bugs rearch
-23 error Or if that isn't available, you can get their info via:
-23 error     npm owner ls rearch
-23 error There is likely additional logging output above.
-24 verbose exit [ 1, true ]
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/ghost/Documents/react-server-redux',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/ghost/.npm/react-server-redux/0.0.1/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/ghost/.npm correctMkdir not in flight; initializing
+10 info lifecycle react-server-redux@0.0.1~prepublish: react-server-redux@0.0.1
+11 silly lifecycle react-server-redux@0.0.1~prepublish: no script for prepublish, continuing
+12 info lifecycle react-server-redux@0.0.1~prepare: react-server-redux@0.0.1
+13 silly lifecycle react-server-redux@0.0.1~prepare: no script for prepare, continuing
+14 verbose tar pack [ '/Users/ghost/.npm/react-server-redux/0.0.1/package.tgz',
+14 verbose tar pack   '/Users/ghost/Documents/react-server-redux' ]
+15 verbose tarball /Users/ghost/.npm/react-server-redux/0.0.1/package.tgz
+16 verbose folder /Users/ghost/Documents/react-server-redux
+17 verbose addLocalTarball adding from inside cache /Users/ghost/.npm/react-server-redux/0.0.1/package.tgz
+18 verbose correctMkdir /Users/ghost/.npm correctMkdir not in flight; initializing
+19 silly cache afterAdd react-server-redux@0.0.1
+20 verbose afterAdd /Users/ghost/.npm/react-server-redux/0.0.1/package/package.json not in flight; writing
+21 verbose correctMkdir /Users/ghost/.npm correctMkdir not in flight; initializing
+22 verbose afterAdd /Users/ghost/.npm/react-server-redux/0.0.1/package/package.json written
+23 silly publish { name: 'react-server-redux',
+23 silly publish   version: '0.0.1',
+23 silly publish   private: true,
+23 silly publish   author: { name: 'anishmprasad' },
+23 silly publish   description: 'An Starter React app powered by React-Server, React-Router, Redux and React Native',
+23 silly publish   scripts:
+23 silly publish    { start: 'react-server start',
+23 silly publish      open: 'open http://localhost:3000',
+23 silly publish      clean: 'rm -rf __clientTemp' },
+23 silly publish   license: 'Apache-2.0',
+23 silly publish   dependencies:
+23 silly publish    { 'babel-runtime': '^6.6.1',
+23 silly publish      react: '^15.4.1',
+23 silly publish      'react-dom': '^15.4.1',
+23 silly publish      'react-redux': '^4.4.5',
+23 silly publish      'react-server': '^0.6.3',
+23 silly publish      'react-server-redux': '^0.6.3',
+23 silly publish      'react-server-cli': '^0.6.3',
+23 silly publish      redux: '^3.5.2',
+23 silly publish      superagent: '1.8.4',
+23 silly publish      'prop-types': '^15.5.4',
+23 silly publish      'react-router': '4.1.1',
+23 silly publish      'react-router-dom': '4.1.1',
+23 silly publish      'react-router-native': '4.1.1',
+23 silly publish      'redux-thunk': '^1.0.3',
+23 silly publish      'react-native': '^0.42.0' },
+23 silly publish   devDependencies:
+23 silly publish    { 'babel-preset-react-server': '^0.4.4',
+23 silly publish      'typeahead-react-component': '^0.9.5' },
+23 silly publish   readme: '## React Server Redux Starter\nAn Starter React app powered by React-Server, React-Router, Redux and React Native\n\n### Quick Start\nInstall npm dependencies:\n```\nnpm install\n```\n\nStart react-server in development mode:\n```\nnpm start\n```\n\nIn a seperate shell, open app in browser:\n```\nnpm run open\n```\n\n### Description\n\n* In counter-app/index.js, the Redux store is initialized by passing a reducing function into [`createStore()`](http://redux.js.org/docs/api/createStore.html).\n\n* The store is passed into the react-redux\'s [`<Provider />`](https://github.com/reactjs/react-redux/blob/master/docs/api.md#provider-store) component. This makes the Redux store available to the [`connect()`](https://github.com/reactjs/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options) calls in the component hierarchy below.\n\n* The [`connect()`](https://github.com/reactjs/react-redux/blob/master/docs/api.md#connectmapstatetoprops-mapdispatchtoprops-mergeprops-options) is used in the `<Counter />` component which gives the component access to the Redux store.\n\n* The [`store.dispatch()`](http://redux.js.org/docs/api/Store.html#dispatch) functions are passed down as props in the `<Counter />` component. These are used to dispatch increment & decrement actions, which mutate the Redux store.\n\n**Note**: Single Redux store lives in pages/store.js. In a larger application, you can combine multiple reducers from multiple pages with [`combinedReducer()`](http://redux.js.org/docs/api/combineReducers.html) to instantiate a single Redux store.',
+23 silly publish   readmeFilename: 'README.md',
+23 silly publish   gitHead: '7279194536c0247923b8909f6fb2901f59e8fdd1',
+23 silly publish   _id: 'react-server-redux@0.0.1',
+23 silly publish   _shasum: '8ea663292807eb98dbbe0c9a75ac2a8119276cc2',
+23 silly publish   _from: '.' }
+24 info lifecycle react-server-redux@0.0.1~prepublishOnly: react-server-redux@0.0.1
+25 silly lifecycle react-server-redux@0.0.1~prepublishOnly: no script for prepublishOnly, continuing
+26 verbose getPublishConfig undefined
+27 verbose stack Error: This package has been marked as private
+27 verbose stack Remove the 'private' field from the package.json to publish it.
+27 verbose stack     at publish_ (/usr/local/lib/node_modules/npm/lib/publish.js:102:15)
+27 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+27 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+27 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+27 verbose stack     at done (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:132:5)
+27 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:7:26)
+27 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+27 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:318:20
+27 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:284:29
+27 verbose stack     at FSReqWrap.oncomplete (fs.js:114:15)
+28 verbose cwd /Users/ghost/Documents/react-server-redux
+29 error Darwin 16.6.0
+30 error argv "/usr/local/Cellar/node/7.7.3/bin/node" "/usr/local/bin/npm" "publish"
+31 error node v7.7.3
+32 error npm  v4.1.2
+33 error This package has been marked as private
+33 error Remove the 'private' field from the package.json to publish it.
+34 error If you need help, you may report this error at:
+34 error     <https://github.com/npm/npm/issues>
+35 verbose exit [ 1, true ]
