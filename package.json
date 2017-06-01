@@ -1,0 +1,34 @@
+{
+  "name": "react-server",
+  "version": "0.0.1",
+  "private": true,
+  "author": "anishmprasad",
+  "description": "react-server",
+  "scripts": {
+    "start": "react-server start",
+    "open": "open http://localhost:3000",
+    "clean": "rm -rf __clientTemp"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "babel-runtime": "^6.6.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^4.4.5",
+    "react-server": "^0.6.3",
+    "react-server-redux": "^0.6.3",
+    "react-server-cli": "^0.6.3",
+    "redux": "^3.5.2",
+    "superagent": "1.8.4",
+    "prop-types": "^15.5.4",
+    "react-router":"4.1.1", 
+    "react-router-dom":"4.1.1", 
+    "react-router-native":"4.1.1",
+    "redux-thunk": "^1.0.3",
+    "react-native": "^0.42.0"
+  },
+  "devDependencies": {
+    "babel-preset-react-server": "^0.4.4",
+    "typeahead-react-component":"^0.9.5"
+  }
+}
