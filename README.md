@@ -1,5 +1,5 @@
 ## React Server Redux Starter
-An Starter React app powered by React-Server, React-Router and Redux
+An Starter React app powered by React-Server, React-Router, Redux and React Native
 
 ### Quick Start
 Install npm dependencies:
