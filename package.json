@@ -1,9 +1,9 @@
 {
   "name": "react-server-native",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "private": false,
   "author": "anishmprasad",
-  "description": "An Starter React app powered by React-Server, Redux and React Native",
+  "description": "An Starter Server Side Rendering (SSR) React app powered by React-Server, Redux and React Native",
   "scripts": {
     "start": "react-server start",
     "open": "open http://localhost:3000",

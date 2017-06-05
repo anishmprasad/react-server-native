@@ -3,12 +3,12 @@ module.exports = {
 		CounterPage: {
 			path: ['/'],
 			method: 'get',
-			page: '../../pages/counter-app/index',
+			page: '../../containers/counter/index',
 		},
 		HelloPage: {
 			path: ['/hello'],
 			method: 'get',
-			page: '../../pages/counter-app/hello',
+			page: '../../containers/helloworld/hello',
 		},
 	},
 }
