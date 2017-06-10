@@ -1,6 +1,6 @@
 {
   "name": "react-server-native",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": false,
   "author": "anishmprasad",
   "description": "An Starter Server Side Rendering (SSR) React app powered by React-Server, Redux and React Native",
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "babel-preset-react-server": "^0.4.4",
-    "typeahead-react-component":"^0.9.5"
+    "typeahead-react-component":"^0.9.5",
+    "redux-typeahead":"^0.10.3"
   }
 }
